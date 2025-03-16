@@ -22,8 +22,8 @@ Key Features of the Program
 
     Database metadata and table relationship graphs are stored in Redis to reduce repeated database retrievals.
     FAISS stores processed data to speed up future searches.
-Summary
 
+Summary
 🔹 This program is an intelligent query system that enables users to retrieve information from a database without writing manual SQL queries.
 🔹 The use of AI models and semantic search ensures that even if the user’s question is not precise, the system can still extract relevant information.
 🔹 The program follows an object-oriented programming (OOP) structure, enhancing readability, flexibility, and scalability.
