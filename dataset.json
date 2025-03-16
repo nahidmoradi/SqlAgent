@@ -1,0 +1,14 @@
+[   
+    {
+        "question": "Which tables should I ignore?",
+        "answer": "Some tables in the database are currently not in use and should be ignored, such as Branch and BranchZone."
+    },
+    {
+        "question": "How can I access different invoice statuses?",
+        "answer": "Canceled invoices are stored in the CancelFactorHeader table, and returned invoices are stored in the ReturnFactorHeader table. There is no direct status for them in the invoice table."
+    },
+    {
+        "question": What should I do for questions related to sales?",
+        "answer": "For these types of questions, only the tables related to finalized invoices along with invoice details should be used. Additionally, returned or canceled invoices should be excluded from the results, and tables related to orders should not be used."
+    }      
+]
